@@ -57,8 +57,8 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Smart Health Monitor"
+              description="I built a real-time health monitoring system using ESP8266 that simulates ECG signals (10–800 range), calculates BPM, and reads temperature and humidity from a DHT22 sensor. Data is sent every 2 seconds to a Flask server for visualization, showcasing my skills in IoT, sensor integration, and HTTP communication."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -68,8 +68,8 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Smart Bus Tracker"
+              description="Smart Bus Tracker is an IoT-based mini project that monitors live bus location and seat availability in real-time. It uses an Arduino with a GPS module and two FSR402 sensors to detect the bus's position and seat occupancy, and sends this data via serial to an ESP8266. The ESP8266 connects to WiFi and uploads the data to a Flask web server hosted on a laptop. The website displays the bus's live location on a map and seat status using a user-friendly interface, helping commuters track buses effectively. This low-cost solution is ideal for smart public transport systems."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
