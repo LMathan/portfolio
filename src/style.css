@@ -741,3 +741,157 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.icon-colour {
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.icon-colour:hover {
+  color: #9b59b6; /* Purple highlight on hover */
+}
+
+.purple {
+  color: #9b59b6 !important;
+}
+
+.contact-form-box input,
+
+.contact-form-box textarea {
+  border-radius: 10px;
+}
+.contact-card {
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(15px);
+  border-radius: 16px;
+}
+
+.bg-glass {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  color: #fff;
+}
+
+.purple {
+  color: #9b59b6 !important;
+}
+
+.icon-colour {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.icon-colour:hover {
+  color: #9b59b6;
+}
+.bg-contact-form {
+  background-color: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  color: #fff;
+}
+
+.bg-contact-form .form-control {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid #666;
+  color: white;
+}
+
+.bg-contact-form .form-control::placeholder {
+  color: #ccc;
+}
+
+.project-section {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #0d0d30;
+  overflow: hidden;
+}
+
+.project-heading {
+  font-size: 2.6em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.contact-container {
+  padding-bottom: 60px;
+}
+
+.bg-contact-form {
+  background-color: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  color: white;
+}
+
+.bg-contact-form .form-control {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid #666;
+  color: white;
+}
+
+.bg-contact-form .form-control::placeholder {
+  color: #ccc;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.contact-info h3, .contact-info h4 {
+  font-weight: 600;
+}
+
+.contact-icons a {
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.contact-icons a:hover {
+  color: #9c6bff;
+  transform: scale(1.2);
+}
+.contact-info {
+  padding-right: 30px;
+}
+
+.bg-contact-form {
+  min-width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.resume-section {
+  background-color: #0d0d0d;
+  background-image: linear-gradient(to bottom right, #1c1c1c, #0d0d0d);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.resume-section {
+  position: relative;
+  background-color: #0d0d0d;
+  background-image: linear-gradient(to bottom right, #1c1c1c, #0d0d0d);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.resume-section > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.tsparticles-canvas-el {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: none;
+}
