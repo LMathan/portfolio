@@ -25,9 +25,11 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Driver Drowsiness Detection"
-              description="An AI-powered system that monitors driver alertness using computer vision and machine learning. Built with OpenCV, Dlib, and Python, this project detects eye closure and facial cues to determine drowsiness and alerts the driver with a beep sound if signs of sleep are detected."
-              ghLink="https://github.com/LMathan/Driver-Drowsiness-Detection"
+              title="CollaboBoard - Real-Time Collaborative Task Management"
+              
+              description="Built a full-stack Kanban board using React, Node.js, Express, and MongoDB. Enabled real-time task sync with Socket.IO, Smart Assign for balanced task distribution, and conflict handling for simultaneous edits. Included JWT-based auth and a responsive, drag-and-drop UI with custom styling."
+              ghLink="https://github.com/LMathan/CollaboBoard"
+              demoLink="https://collaboboard.onrender.com/"
               
             />
           </Col>
@@ -49,6 +51,7 @@ function Projects() {
               title="ESP32-CAM-Motion-Telegram"
               description="It uses ESP32-CAM and a PIR sensor to detect motion and capture images. It sends real-time alerts with images via Telegram, ensuring smart security monitoring. Ideal for home surveillance and automation with Wi-Fi connectivity. 📸⚠️🚀"
               ghLink="https://github.com/LMathan/ESP32-CAM-Motion-Telegram"
+              
                             
             />
           </Col>
@@ -82,8 +85,7 @@ function Projects() {
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              
             />
           </Col>
         </Row>
