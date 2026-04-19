@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
@@ -35,12 +34,11 @@ function Home() {
               </div>
 
               <div className="hero-cta">
-                <Button as={Link} to="/contact" className="hero-btn hero-btn-primary">
+                <Button href="#contact" className="hero-btn hero-btn-primary">
                   Book a Discovery Call
                 </Button>
                 <Button
-                  as={Link}
-                  to="/project"
+                  href="#projects"
                   variant="light"
                   className="hero-btn hero-btn-secondary"
                 >
