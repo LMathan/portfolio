@@ -8,28 +8,34 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mathan L </span>
-            from <span className="purple"> Erode, TamilNadu.</span>
+            I am <span className="purple">Mathan L</span>, a Full-Stack Developer
+            and Embedded/IoT Engineer from
+            <span className="purple"> Erode, Tamil Nadu, India</span>.
             <br />
-            Currently I am a Student at Velalar College Of Engineering And Technology .
-           <br/>
-           <br/>
-            Apart from coding, some other activities that I love to do!
+            I work across frontend, backend, and device-level systems to deliver
+            practical digital solutions from idea to production.
+            <br />
+            <br />
+            I am currently pursuing engineering at Velalar College of Engineering
+            and Technology while actively building freelance-ready products.
+            <br />
+            <br />
+            What clients can expect when working with me:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Clear communication and predictable delivery
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Performance-focused and scalable implementations
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Ownership from planning, build, testing, and handoff
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "#2d719e" }}>
+            "I build systems that are dependable, maintainable, and business-ready."
           </p>
          
         </blockquote>

@@ -1,53 +1,44 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import React from "react";
+import { Container } from "react-bootstrap";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Mathan L.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
-
   return (
     <div>
-      <Container fluid className="resume-section">
+      <Container fluid className="resume-section" id="resume">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+        <p className="section-kicker text-center">Resume</p>
+        <h1 className="project-heading text-center mb-4">
+          Experience Snapshot <span className="purple">& Credentials</span>
+        </h1>
+        <div className="resume-highlights">
+          <article className="resume-highlight-card">
+            <h3>Current Project Focus</h3>
+            <ul>
+              <li>CollaboBoard: Real-time task platform with React, Node.js, MongoDB, and Socket.IO.</li>
+              <li>Smart monitoring systems with ESP32/ESP8266 and cloud-connected dashboards.</li>
+              <li>Freelance-ready product delivery with iterative milestones and clear communication.</li>
+            </ul>
+          </article>
 
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
+          <article className="resume-highlight-card">
+            <h3>Raspberry Pi Experience</h3>
+            <ul>
+              <li>Built Raspberry Pi-based automation and sensor integration workflows for IoT prototypes.</li>
+              <li>Worked with GPIO peripherals, camera modules, and network-based device communication.</li>
+              <li>Integrated Pi-generated telemetry into backend services and web interfaces.</li>
+            </ul>
+          </article>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+          <article className="resume-highlight-card">
+            <h3>AI Model Development</h3>
+            <ul>
+              <li>Trained and evaluated deep learning models for computer vision tasks.</li>
+              <li>Implemented emotion detection pipelines using TensorFlow/Keras and OpenCV.</li>
+              <li>Focused on practical model deployment for real-time inference scenarios.</li>
+            </ul>
+          </article>
+        </div>
       </Container>
     </div>
   );
